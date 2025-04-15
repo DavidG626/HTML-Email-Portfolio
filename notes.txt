@@ -1,0 +1,22 @@
+/* 
+==============================================
+COLOR THEME - Edit these variables to change your site's colors
+==============================================
+*/
+:root {
+    /* Main Colors */
+    --color: #eee;                /* Text color */
+    --bg-color: #23282E;          /* Main background color */
+    --primary-color: #CA3EA7;     /* Primary accent color */
+    --secondary-color: #E4454A;   /* Secondary accent color */
+    
+    /* Additional Colors */
+    --violet: #5539cc;
+    --lightblue: #62687e;
+    --liteorange: #e3454d;
+}
+
+/* 
+==============================================
+Rest of your CSS styles below
+==============================================
