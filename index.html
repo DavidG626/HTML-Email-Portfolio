@@ -3,416 +3,449 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Gutierrez</title>
     <link rel="icon" href="https://i.ibb.co/Lzb6Bpd/icons8-gear-50.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>David Gutierrez | HTML Email Developer</title>
     <link rel="stylesheet" href="styles.css">
-     <!-- PostHog initialization script first -->
-     <script>
-        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-        posthog.init('phc_DZyMj5DQVWrsTaVBMhcI18YKhBa7gIg2DY0A27xeniD', {
-            api_host: 'https://us.i.posthog.com',
-            person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
-        })
-    </script>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap" rel="stylesheet">
+
+
+
 </head>
 <body>
-    
+    <!-- Header Start -->
     <header>
-        <nav>
-            <a data-tab="intro">Intro</a>
-            <a data-tab="experience">Timeline</a>
-            <a data-tab="skill">Skills</a>
-            <a data-tab="project">Projects</a>
-            <a data-tab="contact">Contact</a>
-        </nav>
+        <div class="container">
+            <div class="logo">
+                <a href="#hero">davidguti.dev</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
+    <!-- Header End -->
 
-    <div class="tab" id="intro">
-        <div class="container">
-            <div class="avatar">
-                <img src="index_img/avatar-10.png
-                ">
-            </div>
-            <div class="content">
-                <div class="name">David</div>
-                <div class="job">
-                    Web <span class="text-gradient">
-                        Developer
-                    </span>
+    <!-- Hero Start -->
+    <section id="hero">
+       
+
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text-1">
+                        <h3>I create HTML Emails</h3>
+                        <h3>that get results.</h3>
+                        <!-- <h3>Web Developer</h3> -->
+                        <p>Hi! I'm David, an HTML Email developer based in the United States.</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn primary">Book A Call</a>
+                            <a href="#projects" class="btn secondary">See My Work</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="index_img/avatar-11.png" alt="Your Name">
+                        </div>
+                    </div>
                 </div>
-                <div class="des">
-                    After dedicating 13 years to medicine, I've transitioned my skills to web development. My healthcare background provides me with unique perspectives on user experience and problem-solving. I combine clinical precision with creative coding to craft intuitive digital solutions. This uncommon blend of medical expertise and technical skills allows me to approach projects with both analytical rigor and human-centered design thinking.
-                    <br>
-                    <br>
-                    <a class="skill" data-tab="skill">See my Skills</a>
-                </div>
-                <i class="fa-solid fa-quote-right"></i>
             </div>
+    </section>
+<div class="divider"></div>
+ <!-- Hero End -->
+    
+
+<!-- Skills Start -->
+<section id="skills">
+    <div class="container-1">
+
+        <div class="skills-header">
+            <div class="underline"></div>
         </div>
-    </div>
 
-    <div class="tab" id="experience">
-        <div class="container">
-            <div class="list">
-                <div class="item">
-                    <div class="time">2024</div>
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    <div class="content">
-                        <div class="job">Backend</div>
-                        <div class="company">Codecademy</div>
-                        <div class="des">
-                            <!-- 15 -->
-                             Python, Flask, Command Line, Git
+            <div class="skills-content">
+
+                <div class="skill-category">
+                    <h3>Skills</h3>
+
+                    <!-- First Row of Skills -->
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <h4>HTML5</h4>
                         </div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="time">2024</div>
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    <div class="content">
-                        <div class="job">HTML/CSS</div>
-                        <div class="company">Codecademy</div>
-                        <div class="des">
-                            <!-- 15 -->
-                             Certificate of completion for the HTML/CSS course on Codecademy.
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <h4>CSS3</h4>
                         </div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="time">2025</div>
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    <div class="content">
-                        <div class="job">HTML Email Developement</div>
-                        <div class="company">Coding Phase</div>
-                        <div class="des">
-                            <!-- 15 -->
-                             <!-- Text here if needed -->
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <img src="index_img/mjml.png" alt="MJML" class="skill-icon">
+                            </div>
+                            <h4>MJML</h4>
                         </div>
-                    </div>
-                </div>
 
-                <div class="item">
-                    <div class="time">2025</div>
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    <div class="content">
-                        <div class="job">CMS</div>
-                        <div class="company">Coding Phase</div>
-                        <div class="des">
-                            <!-- 15 -->
-                             Wordpress
+                        <!-- Second Row of Skills -->
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <img src="index_img/klaviyo_1.svg"  class="skill-icon">
+                            </div>
+                            <h4>Klaviyo</h4>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <img src="index_img/litmus.png" alt="Klaviyo" class="skill-icon">
+                            </div>
+                            <h4>Litmus</h4>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+                            <h4>Responsive Design</h4>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+</section>
+<div class="divider"></div>
+<!-- Skills End -->
+
+
+<!-- About Me Start -->
+<section id="about">
+    <div class="about-heading">
+        <h3>About Me</h3>
     </div>
-
-    <div class="tab" id="skill" >
-        <div class="container">
-            <div class="list">
-                <div class="item">
-                    <i class="fa-brands fa-python"></i>
-                    <div class="name">Python</div>
-                    <div class="des">
-                        <!-- 7 -->
-                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing. -->
-                    </div>
-                </div>
-
-                <div class="item">
-                    <i class="fa-brands fa-html5"></i>
-                    <div class="name">HTML</div>
-                    <div class="des">
-                        <!-- 7 -->
-                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing. -->
-                    </div>
-                </div>
-
-                <div class="item">
-                    <i class="fa-brands fa-wordpress"></i>
-                    <div class="name">Wordpress</div>
-                    <div class="des">
-                        <!-- 7 -->
-                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing. -->
-                    </div>
-                </div>
-
-                <div class="item">
-                    <i class="fa-solid fa-flask"></i>
-                    <div class="name">Flask</div>
-                    <div class="des">
-                        <!-- 7 -->
-                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing. -->
-                    </div>
-                </div>
-
-                <div class="item">
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <div class="name">CSS</div>
-                    <div class="des">
-                        <!-- 7 -->
-                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing. -->
-                    </div>
-                </div>
-
-                <div class="item">
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <div class="name">HTML Email</div>
-                    <div class="des">
-                        <!-- 7 -->
-                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing. -->
-                    </div>
-                </div>
-
-                
-            </div>
-        </div>
-    </div>
-    <div class="tab" id="project" >
-        <div class="container">
-            <div class="list">
-                <div class="item">
-                    <a href="https://flask-project-emr.onrender.com/" target="_blank">
-                        <img src="index_img/emr.jpg">
-                        <!-- <div class="index">#1</div> -->
-                        <div class="name">Electronic Medical Records</div>
-                        <div class="des">
-                            <!-- 20 -->
-                            Python Flask HTML CSS Jinja
-                            <p style="font-weight: normal; margin-top: 5px;">Not responsive due to HIPAA</p>
-                        </div>
-
-                        <div class="author">
-                            <div class="job">FullStack</div>
-                            <div class="time">
-                                2025 - Current
-                                <!-- <i class="fa-regular fa-clock"></i> -->
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="item">
-                    <a href="vitamin.html" target="_blank">
-                        <img src="index_img/pills_1.jpg">
-                        <!-- <div class="index">#2</div> -->
-                        <div class="name">Vitamin Store </div>
-                        <div class="des">
-                            <!-- 20 -->
-                            HTML/CSS
-                        </div>
-                        <div class="author">
-                            <div class="job">Front End</div>
-                            <div class="time">
-                                2025
-                                <!-- <i class="fa-regular fa-clock"></i> -->
-                            </div>
-                        </div>
-                    </a> 
-                </div>
-
-                <div class="item">
-                    <a >
-                        <img src="index_img/car.jpg">
-                        <!-- <div class="index">#3</div> -->
-                        <div class="name">Mechanic</div>
-                        <div class="des">
-                            <!-- 20 --> 
-                            Wordpress
-                        </div>
-                        <div class="author">
-                            <div class="job">Front End</div>
-                            <div class="time">
-                                2025
-                                <!-- <i class="fa-regular fa-clock"></i> -->
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="item">
-                    <a >
-                        <img src="index_img/fish.jpg">
-                        <!-- <div class="index">#4</div> -->
-                        <div class="name">Aquarium Store</div>
-                        <div class="des">
-                            <!-- 20 -->
-                            Wordpress
-                        </div>
-                        <div class="author">
-                            <div class="job">Front End</div>
-                            <div class="time">
-                                2025
-                                <!-- <i class="fa-regular fa-clock"></i> -->
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="item">
-                    <a href="email_html/email-1.html" target="_blank" data-project-id="email-1" data-project-name="Clothing Store" class="project-link">
-                        <img src="email_cover/tie.jpg">
-                        <!-- <div class="index">#5</div> -->
-                        <div class="name">Clothing Store</div>
-                        <div class="des">
-                            <!-- 20 -->
-                            HTML Email
-                        </div>
-                        <div class="author">
-                            <div class="job">Front End</div>
-                            <div class="time">
-                                2025
-                                <!-- <i class="fa-regular fa-clock"></i> -->
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="email_html/email-2.html" target="_blank" data-project-id="email-2" data-project-name="Watch Store" class="project-link">
-                        <img src="email_cover/email-2.jpg">
-                        <!-- <div class="index">#6</div> -->
-                        <div class="name">Watch Store</div>
-                        <div class="des">
-                            <!-- 20 -->
-                            HTML Email
-                        </div>
-                        <div class="author">
-                            <div class="job">Front End</div>
-                            <div class="time">
-                                2025 
-                                <!-- <i class="fa-regular fa-clock"></i> -->
-                            </div>
-                        </div>
-                    </a>    
-                </div>
-                
-                <div class="item">
-                    <a href="email_html/email-3.html" target="_blank" data-project-id="email-3" data-project-name="DIY Tables" class="project-link">
-                        <img src="email_cover/email-3.jpg">
-                        <!-- <div class="index">#6</div> -->
-                        <div class="name">DIY Tables</div>
-                        <div class="des">
-                            <!-- 20 -->
-                            HTML Email
-                        </div>
-                        <div class="author">
-                            <div class="job">Front End</div>
-                            <div class="time">
-                                2025 
-                                <!-- <i class="fa-regular fa-clock"></i> -->
-                            </div>
-                        </div>
-                    </a>    
-                </div>
-
-                <div class="item">
-                    <a href="email_html/email-4.html" target="_blank" data-project-id="email-4" data-project-name="Group Ride" class="project-link">
-                        <img src="email_cover/email-4.jpg">
-                        <!-- <div class="index">#6</div> -->
-                        <div class="name">Group Ride</div>
-                        <div class="des">
-                            <!-- 20 -->
-                            HTML Email
-                        </div>
-                        <div class="author">
-                            <div class="job">Front End</div>
-                            <div class="time">
-                                2025 
-                                <!-- <i class="fa-regular fa-clock"></i> -->
-                            </div>
-                        </div>
-                    </a>    
-                </div>
-                
-                <div class="item">
-                    <a href="email_html/email-5.html" target="_blank" data-project-id="email-5" data-project-name="Active Kids Club" class="project-link">
-                        <img src="email_cover/email-5.png">
-                        <!-- <div class="index">#6</div> -->
-                        <div class="name">Active Kids Club</div>
-                        <div class="des">
-                            <!-- 20 -->
-                            HTML Email
-                        </div>
-                        <div class="author">
-                            <div class="job">Front End</div>
-                            <div class="time">
-                                2025 
-                                <!-- <i class="fa-regular fa-clock"></i> -->
-                            </div>
-                        </div>
-                    </a>    
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="tab" id="contact">
-        <div class="container">
-            <div class="content">
-                <div class="thank-you">Thank you!</div>
-                <div class="des">
-                    <!-- 50 -->
-                    Thank you for reviewing my portfolio. I'm passionate about creating thoughtful, user-focused digital experiences and would enjoy discussing how my web development skills align with your team's needs.
-                    <br>
-                    <br>
-                    <a href="resume 2025.pdf" target="_blank" class="skill">Download CV</a>
-                <div class="list">
-                    <a href="https://wa.me/16266284645" target="_blank" style="color: #fff; text-decoration: none;">
-                        <div class="item">
-                            <i class="fa-solid fa-phone"></i>
-                            626.628.4645
-                        </div>
-                    </a>
-
-                    <div class="item">
-                        <i class="fa-regular fa-envelope"></i>
-                        <a href="mailto:davidguticodes@gmail.com" class="contact-link">davidguticodes@gmail.com</a>
-                    </div>
-                    
-                    <div class="item">
-                        <i class="fa-brands fa-github"></i>
-                        <a href="https://github.com/DavidG626/portfolio-2025/tree/main/portfolio%202025" target="_blank" class="contact-link">https://github.com/DavidG626</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <script src="app.js"></script>
-    <script>
-        // Event listener for project links
-        document.addEventListener('DOMContentLoaded', function() {
-            const projectLinks = document.querySelectorAll('.project-link');
+        <!-- Bubble Background -->
+        <!-- <div class="background-bubbles">
+            <div class="bubble bubble-3"></div>
             
-            projectLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    // Get project details from data attributes
-                    const projectId = this.getAttribute('data-project-id');
-                    const projectName = this.getAttribute('data-project-name');
+        </div> -->
+
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container-about">
+                        <img src="index_img/david-2.jpg" style="transform: scaleX(-1)">
+                    </div>
+                </div>
+                <div class="about-text-1">
+                    <p class="about-text">Hi there! I'm an HTML email developer specializing in creating responsive, beautifully designed email templates that look great across all devices and email clients.
+                        When I'm not coding pixel-perfect emails, you'll find me enjoying the great outdoors. I'm passionate about road cycling, hiking scenic trails, and spending peaceful days fishing. These activities help me maintain a healthy work-life balance and provide fresh inspiration for my creative work.
+                        My technical expertise in HTML, CSS, and email-specific frameworks like MJML, combined with my experience using platforms such as Klaviyo and Litmus, allows me to deliver emails that not only look fantastic but also drive results.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" style="display:flex;align-items:center;justify-content:center;border-radius:50%;text-decoration:none; padding-right: 6px;">
+                            <i>CV</i>
+                        </a>
+                          
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+</section>
+<div class="divider"></div>
+
+   
+
+    <section id="projects">
+        <div class="container">
+            <div class="section-header-projects">
+                <h2>HTML Emails</h2>
+               
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="email_cover/tie.jpg" alt="Clothing Store">
+                    </div>
+                    <div class="project-content">
+                        <h3>Clothing Store</h3>
+                        <p></p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        
+                       
+                        <div class="project-links">
+                            <a href="email_html/email-1.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="index_img/pills_1.jpg" alt="Project 2" style="transform: scaleX(-1);">
+                    </div>
+                    <div class="project-content">
+                        <h3>2</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="project-tech">
+                            <!-- <span>HTML</span>
+                            <span>CSS</span> -->
+                            
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="index_img/car.jpg" alt="Project 3" style="transform: scaleX(-1);">
+                    </div>
+                    <div class="project-content">
+                        <h3>3</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="project-tech">
+                            <!-- <span>Wordpress</span> -->
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="index_img/fish.jpg" alt="Project 4">
+                    </div>
+                    <div class="project-content">
+                        <h3>4</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="project-tech">
+                            <!-- <span>Wordpress</span> -->
+                            
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="email_cover/tie.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>5</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="project-tech">
+                            <!-- <span>HTML Email</span> -->
+                            
+                            
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="email_cover/email-2.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>6</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="project-tech">
+                            <!-- <span>HTML Email</span> -->
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </section >
+    <div class="divider"></div>
+
+    <section id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Experience & Education</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="date">2023</span>
+                        <h3>Python</h3>
+                        <h3>Flask</h3>
+                        <h4>Codecademy</h4>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="date">2023</span>
+                        <h3>HTML</h3>
+                        <h3>CSS</h3>
+                        <h4>Codecademy</h4>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="date">2024</span>
+                        
+                        <h3>Freelance</h3>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="date">2025</span>
+                        <h3>Freelance For Medical Practice</h3>
+                        <h3>HTML Email</h3>
+                        <h3>Wordpress</h3>
+                        <h3></h3>
+                        <h4>Coding Phase</h4>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="divider-2"></div>
+    
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>I'm currently available for freelance work and full-time positions. If you have a project that needs a creative touch, or if you want to discuss potential opportunities, feel free to reach out!</p>
                     
-                    // Send event to PostHog
-                    posthog.capture('email_project_view', {
-                        project_id: projectId,
-                        project_name: projectName,
-                        project_type: 'html_email'
-                    });
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:davidguticodes@gmail.com">davidguticodes@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+16266284645">(626) 628-4645</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Pasadena, CA</span>
+                        </div>
+                    </div>
                     
-                    console.log('Project clicked:', projectName); // For debugging
-                    
-                    // Small delay to ensure tracking is sent before navigating
-                    setTimeout(function() {
-                        // This would normally continue with the navigation, but
-                        // we don't need to do anything as the default link behavior will still work
-                    }, 300);
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" style="display:flex;align-items:center;justify-content:center;border-radius:50%;text-decoration:none; padding-right: 6px;">
+                            <i>CV</i>
+                        </a>
+                          
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#hero">davidguti.dev</a>
+                </div>
+                <div class="footer-nav">
+                    <a href="#hero">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+            
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 David Gutierrez. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
                 });
+                // Close mobile menu when a link is clicked
+                document.querySelector('nav ul').classList.remove('active');
             });
         });
+        
+        // Form submission (just preventDefault for demo)
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Form submission functionality would go here in a real implementation.');
+            this.reset();
+        });
     </script>
-    
 </body>
 </html>
