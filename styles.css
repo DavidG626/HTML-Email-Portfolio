@@ -434,6 +434,7 @@ nav ul li a:hover::after {
 
 .skill-category h3 {
     font-size: var(--font-12);
+    padding-bottom: var(--font-19);
     /* margin-bottom: var(--font-10); */
     
     text-align: center;
@@ -811,9 +812,12 @@ nav ul li a:hover::after {
 .social-links {
     display: flex;
     gap: var(--font-4);
+    padding-top: var(--font-1);
+    padding-bottom: var(--font-6);
 }
 
 .social-links a {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -827,6 +831,7 @@ nav ul li a:hover::after {
 }
 
 .social-links a:hover {
+    
     background-color: var(--text-black);
     transform: translateY(-5px);
 }
